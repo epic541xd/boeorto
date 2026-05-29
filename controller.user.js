@@ -159,25 +159,19 @@
     let currentTank = "basic";
 
     const tankCategories = {
-        "Essentials": {
-            basic: "Basic",
-            fire: "Firework"
-        },
-        "Advanced": {
-            doubletwin: "Double Twin",
-            octotank: "Octo Tank",
-            booster: "Booster",
-            overseer: "Overseer",
-            anni: "Annihilator",
-            coli: "Collision",
-            crack: "Crackshot",
-            lorry: "Lorry",
-            finger: "Finger",
-            nailgun: "Nailgun",
-            pincer: "Pincer",
-            jerker: "Jerker"
-        }
-    };
+    "Essentials": {
+        basic: "Basic",
+    },
+    "Advanced": {
+        doubletwin: "Double Twin",
+        octotank: "Octo Tank",
+        booster: "Booster",
+        overseer: "Overseer",
+        anni: "Annihilator",
+        coli: "Collision",
+        crack: "Crackshot",
+    },
+};
 
     function populateTankOptions() {
         const list = HTML.tankOptionsList;
