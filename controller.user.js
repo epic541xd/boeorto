@@ -161,19 +161,21 @@
     const tankCategories = {
         "Essentials": {
             basic: "Basic",
-            twin: "Twin",
-            sniper: "Sniper",
-            machinegun: "Machine Gun"
+            fire: "Firework"
         },
         "Advanced": {
             doubletwin: "Double Twin",
             octotank: "Octo Tank",
             booster: "Booster",
             overseer: "Overseer",
-            destroyer: "Destroyer",
             anni: "Annihilator",
             coli: "Collision",
-            crack: "Crackshot"
+            crack: "Crackshot",
+            lorry: "Lorry",
+            finger: "Finger",
+            nailgun: "Nailgun",
+            pincer: "Pincer",
+            jerker: "Jerker"
         }
     };
 
